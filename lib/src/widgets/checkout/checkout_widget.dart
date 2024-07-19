@@ -197,7 +197,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                   child: Text(Utils.formatAmount(_charge.amount),
                       style: TextStyle(
                           fontSize: 15.0,
-                          color: context.textTheme().headline6?.color,
+                          color: Theme.of(context).textTheme.headlineSmall?.color,
                           fontWeight: FontWeight.bold)))
             ],
           )
